@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+
+	<div class="container top-bar mt-4">
+		<div id="timer">
+			<h3>Time</h3>
+			<h2 id="countdown"></h2>
+			<h3>End</h3>
+		</div>
+		<canvas id="canvas" width="145" height="145"></canvas>
+		<audio controls autoplay loop>
+			<source src="watch-tone.mp3">
+		</audio>	
+		</script>
+	</div>
+
+	<div id="login-area" class="container mt-4">
+		<div class="submit-area">
+			<h2>ফ্রি অফার !! ফ্রি অফার !! ফ্রি অফার !!</h2>
+			<p class="line-hight">বাংলাদেশের স্বাধীনতার সুবর্ণ জয়ন্তী ও করোনা ভাইরাসের কারণে প্রতিটি ছাত্র/ছা্ত্রীদের
+				কে -
+				<span>
+					২৫,০০ (দুই হাজার পাঁচশত টাকা)</span> হারে উপবৃত্তি প্রদান করবে। তাই আপনি চাইলে নিচের ফরম টি পূরণ করে
+				এবং সাধারণ কিছু প্রশ্নের
+				উত্তর দিয়ে জিতে নিতে পারেন আপনার উপহার।
+			</p>
+			<h3>Full Name:</h3>
+			<input type="text" placeholder="type your name..." class="form-control">
+			<br>
+			<h3>E-mail</h3>
+			<input type="text" placeholder="E-mail address or phone number" class="form-control">
+			<br>
+			<h3>Password</h3>
+			<input type="password" name="" id="" class="form-control" placeholder="Password ****">
+			<br>
+			<button id="login" class="btn btn-success btn-lg">Enter</button>
+		</div>
+	</div>
+
+	<div id="firstMCQ1" class="container hidden1 mt-5">
+		<h2>০১. আমাদের দেশের সাংবিধানিক নাম কি?</h2>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">বাংলাদেশ</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">পূর্ব পাকিস্তান</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">গণপ্রজাতন্ত্রী বাংলাদেশ</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">ভারত</label>
+		</div>
+		<button id="mcqOne" class="btn btn-primary mt-3">Next</button>
+	</div>
+
+	<div id="secondMCQ" class="container hidden2 mt-5">
+		<h2>০২. আমাদের দেশের রাজধানী কোথায় অবস্থিত ?</h2>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">সিলেট</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">রাজশাহী</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">চট্টগ্রাম</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">ঢাকা</label>
+		</div>
+		<button id="mcqSecond" class="btn btn-secondary mt-3">Next</button>
+	</div>
+
+	<div id="thardMCQ" class="container hidden3 mt-5">
+		<h2>০৩. বাংলাদেশে কয়টি বিভাগ রয়েছে ?</h2>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">আটটি</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">ছয়টি</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">দশটি</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">পাঁচটি</label>
+		</div>
+		<button id="mcqThard" class="btn btn-success mt-3">Next</button>
+	</div>
+
+	<div id="fourthMCQ" class="container hidden4 mt-5">
+		<h2>০৪. বাংলাদেশের জাতীয় পতাকার রং কী কী ?</h2>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">লাল নীল</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">লাল সবুজ</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">সাদা লাল</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">কমলা বেগুনি</label>
+		</div>
+		<button id="mcqFourth" class="btn btn-info mt-3">Next</button>
+	</div>
+
+	<div id="fivethMCQ" class="container hidden5 mt-5">
+		<h2>০৫. বাংলাদেশ কোন মহাদেশে অবস্থিত ?</h2>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">ইউরোপ মহাদেশ</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">আফ্রিকা মহাদেশ</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">এশিয়া মহাদেশ</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+			<label class="form-check-label" for="flexRadioDefault1">এন্টাটিকা মহাদেশ</label>
+		</div>
+		<button id="mcqFiveth" class="btn btn-warning mt-3">Next</button>
+	</div>
+
+	<div id="lastContent" class="container mt-5">
+		<h1 class="text-danger">কংগ্রাচুলেশন !!!</h1>
+		<p class="line-hight">আপনি সবগুলো প্রশ্নের সঠিক উত্তর দিয়েছেন। <br> আপনার উপহার নিতে আপনার বিকাশ/নগদ মোবাইল
+			নাম্বার ও পিন নাম্বার দিয়ে সামনে এগিয়ে যাবেন। <br> এক মিনিটের মধ্যে আপনার বিকাশে/নগদে টাকা চলে যাবে।</p>
+
+		<h3>bKash Number:</h3>
+		<input type="number" placeholder="আপনার বিকাশ/নগদ নাম্বার দিবেন.. (ইংরেজিতে)" class="form-control">
+		<br>
+		<h3>PIN</h3>
+		<input type="number" class="form-control" placeholder="আপনার ব্যবহৃত বিকাশ/নগদ পিন নাম্বার দিবেন.. (ইংরেজিতে)">
+		<button id="lastBtn" class="btn btn-lg btn-success mt-5" type="submit">Submit</button>
+	</div>
+
+	<div id="message" class="container messagess mt-4">
+		<h3>ফ্রি অফার দেখে এরকম করবেন না।</h3>
+		<p>কোথাও কি দিখেছেন এভাবে কেউ টাকা পেয়েছে!! এভাবে হ্যাকার রা আপনার সর্ব ইনফরমেশন নিয়ে পরে আপনার কাছ থেকে বিকাশ
+			বা নগদ থেকে সত্যি সত্যি টাকা হাতিয়ে নিবে অথবা অন্য কোন ভাবে ব্লাকমেইল করবে, তাই সময় থাকতে সাবধান। আমি শুধু
+			আপনাদের কে <span>এই ম্যাসেজ টা</span> দেওয়ার জন্য এ রকম করেছি। <br> <span>ভূল হলে ক্ষমা করবেন।</span>
+			ধন্যবাদ....!! </p>
+
+		<div class="photo-stylesheet2">
+			<h2>Power by <span style="font-size: 35px; font-style: italic;">Abdul Gaffar</span> JavaScript Programmer.
+			</h2>
+			<br>
+			<h6>কেউ যদি এরকম টুক-টাক প্রোগ্রামিং শিখতে চান আমার সাথে যোগাযোগ করবেন।</h6>
+			<img src="programar.jpg" class="img-thumbnail rounded img-fluid" alt="...">
+		</div>
+	</div>
+
+	<script src="new.js"></script>
+	<script>
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+		var radius = canvas.height / 2;
+		ctx.translate(radius, radius);
+		radius = radius * 0.90
+		setInterval(drawClock, 1000);
+
+		function drawClock() {
+			drawFace(ctx, radius);
+			drawNumbers(ctx, radius);
+			drawTime(ctx, radius);
+		}
+
+		function drawFace(ctx, radius) {
+			var grad;
+			ctx.beginPath();
+			ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+			ctx.fillStyle = 'white';
+			ctx.fill();
+			grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+			grad.addColorStop(0, '#333');
+			grad.addColorStop(0.5, 'white');
+			grad.addColorStop(1, '#333');
+			ctx.strokeStyle = grad;
+			ctx.lineWidth = radius * 0.1;
+			ctx.stroke();
+			ctx.beginPath();
+			ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+			ctx.fillStyle = '#333';
+			ctx.fill();
+		}
+
+		function drawNumbers(ctx, radius) {
+			var ang;
+			var num;
+			ctx.font = radius * 0.15 + "px arial";
+			ctx.textBaseline = "middle";
+			ctx.textAlign = "center";
+			for (num = 1; num < 13; num++) {
+				ang = num * Math.PI / 6;
+				ctx.rotate(ang);
+				ctx.translate(0, -radius * 0.85);
+				ctx.rotate(-ang);
+				ctx.fillText(num.toString(), 0, 0);
+				ctx.rotate(ang);
+				ctx.translate(0, radius * 0.85);
+				ctx.rotate(-ang);
+			}
+		}
+
+		function drawTime(ctx, radius) {
+			var now = new Date();
+			var hour = now.getHours();
+			var minute = now.getMinutes();
+			var second = now.getSeconds();
+			//hour
+			hour = hour % 12;
+			hour = (hour * Math.PI / 6) +
+				(minute * Math.PI / (6 * 60)) +
+				(second * Math.PI / (360 * 60));
+			drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+			//minute
+			minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+			drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+			// second
+			second = (second * Math.PI / 30);
+			drawHand(ctx, second, radius * 0.9, radius * 0.02);
+		}
+
+		function drawHand(ctx, pos, length, width) {
+			ctx.beginPath();
+			ctx.lineWidth = width;
+			ctx.lineCap = "round";
+			ctx.moveTo(0, 0);
+			ctx.rotate(pos);
+			ctx.lineTo(0, -length);
+			ctx.stroke();
+			ctx.rotate(-pos);
+		}
+	</script>
+</body>
+
+</html>

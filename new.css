@@ -1,0 +1,63 @@
+#timer{
+	background-color: goldenrod;
+	width: 145px;
+	height: 145px;
+	text-align: center;
+	border: 1px solid red;
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+	position: fixed margin right;
+	margin-right: 10px;
+	float: right;
+}
+#canvas{
+	background-color:#333; 
+	border-radius: 50%; 
+	float: left;
+}
+.top-bar{
+	width: 100%;
+	height: 150px;
+	background-color: greenyellow;
+}
+audio{
+	width: 100px;
+	opacity: 0.1;
+}
+.hidden1{
+	display: none;
+}
+.hidden2{
+	display: none;
+}
+.hidden3{
+	display: none;
+}
+.hidden4{
+	display: none;
+}
+.hidden5{
+	display: none;
+}
+
+.line-hight{
+	line-height: 35px;
+}
+#lastContent{
+	display: none;
+}
+.messagess{
+	display: none;
+}
+span{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.photo-stylesheet2{
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+	border: 1px solid yellowgreen;
+}
